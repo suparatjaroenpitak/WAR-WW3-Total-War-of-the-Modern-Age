@@ -1,0 +1,8 @@
+Name,ProvinceId,ProvinceName,OwnerCountryId,Population,BaseIncome,Stability
+Prov_Zephyria,Zephyria_Capital,Zephyria_Capital_display,Province_Zephyria_Capital label,Province_Zephyria_Capital,1200000,25,60
+Prov_Westfall,Country_Zephyria,850000,18,55
+Prov_Eastridge,Country_Zephyria,600000,12,45
+Prov_Kordath_Capital,label_placeholder,Country_Kordath,1400000,28,65
+Prov_Marches,Country_Kordath,700000,14,50
+Prov_Blackmoor,Province placeholder label,Country_Kordath,520000,10,40
+Prov_Neutral_Vale,Country_NeutralPlaceholder,300000,6,70

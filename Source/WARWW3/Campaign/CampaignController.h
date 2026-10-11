@@ -48,7 +48,7 @@ public:
 	static FString GetSaveSlotPath(const FString& SlotName);
 
 private:
-	UTurnPipeline::FStateView State;
+	UTurnPipeline::FTurnStateView State;
 	TArray<FCountry> Countries;
 	TArray<FProvince> Provinces;
 	FName PlayerCountryId;

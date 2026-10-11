@@ -17,7 +17,7 @@ IMPLEMENT_SIMPLE_AUTOMATION_TEST(FTurnPipelineRevenueOnceTest,
 
 bool FTurnPipelineRevenueOnceTest::RunTest(const FString& Parameters)
 {
-	UTurnPipeline::FStateView State;
+	UTurnPipeline::FTurnStateView State;
 	State.GrossIncome = 120.f;
 	State.UpkeepCost = 40.f;
 	State.Treasury = 0.f;
@@ -57,7 +57,7 @@ IMPLEMENT_SIMPLE_AUTOMATION_TEST(FTurnPipelineTurnAdvanceTest,
 
 bool FTurnPipelineTurnAdvanceTest::RunTest(const FString& Parameters)
 {
-	UTurnPipeline::FStateView State;
+	UTurnPipeline::FTurnStateView State;
 	State.CurrentTurn = 0;
 
 	TArray<FTurnStepReport> Reports = UTurnPipeline::ExecuteTurn(State);

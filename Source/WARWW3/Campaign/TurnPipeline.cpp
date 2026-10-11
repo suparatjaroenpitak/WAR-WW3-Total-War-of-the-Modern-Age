@@ -3,7 +3,7 @@
 #include "Campaign/TurnPipeline.h"
 #include "Core/WARWW3Core.h"
 
-TArray<FTurnStepReport> UTurnPipeline::ExecuteTurn(FStateView& InOutState)
+TArray<FTurnStepReport> UTurnPipeline::ExecuteTurn(FTurnStateView& InOutState)
 {
 	TArray<FTurnStepReport> Reports;
 	const TArray<ETurnStep> Order = {
@@ -23,7 +23,7 @@ TArray<FTurnStepReport> UTurnPipeline::ExecuteTurn(FStateView& InOutState)
 	return Reports;
 }
 
-FTurnStepReport UTurnPipeline::ExecuteStep(ETurnStep Step, FStateView& InOutState)
+FTurnStepReport UTurnPipeline::ExecuteStep(ETurnStep Step, FTurnStateView& InOutState)
 {
 	switch (Step)
 	{
@@ -43,7 +43,7 @@ FTurnStepReport UTurnPipeline::ExecuteStep(ETurnStep Step, FStateView& InOutStat
 	}
 }
 
-FTurnStepReport UTurnPipeline::StepCollectRevenue(FStateView& InOutState)
+FTurnStepReport UTurnPipeline::StepCollectRevenue(FTurnStateView& InOutState)
 {
 	FTurnStepReport R;
 	R.Step = ETurnStep::CollectRevenue;
@@ -56,7 +56,7 @@ FTurnStepReport UTurnPipeline::StepCollectRevenue(FStateView& InOutState)
 	return R;
 }
 
-FTurnStepReport UTurnPipeline::StepConstruction(FStateView& InOutState)
+FTurnStepReport UTurnPipeline::StepConstruction(FTurnStateView& InOutState)
 {
 	FTurnStepReport R;
 	R.Step = ETurnStep::Construction;
@@ -66,7 +66,7 @@ FTurnStepReport UTurnPipeline::StepConstruction(FStateView& InOutState)
 	return R;
 }
 
-FTurnStepReport UTurnPipeline::StepRecruitment(FStateView& InOutState)
+FTurnStepReport UTurnPipeline::StepRecruitment(FTurnStateView& InOutState)
 {
 	FTurnStepReport R;
 	R.Step = ETurnStep::Recruitment;
@@ -75,7 +75,7 @@ FTurnStepReport UTurnPipeline::StepRecruitment(FStateView& InOutState)
 	return R;
 }
 
-FTurnStepReport UTurnPipeline::StepResearch(FStateView& inOutState)
+FTurnStepReport UTurnPipeline::StepResearch(FTurnStateView& inOutState)
 {
 	FTurnStepReport R;
 	R.Step = ETurnStep::Research;
@@ -84,7 +84,7 @@ FTurnStepReport UTurnPipeline::StepResearch(FStateView& inOutState)
 	return R;
 }
 
-FTurnStepReport UTurnPipeline::StepDiplomacy(FStateView& InOutState)
+FTurnStepReport UTurnPipeline::StepDiplomacy(FTurnStateView& InOutState)
 {
 	FTurnStepReport R;
 	R.Step = ETurnStep::Diplomacy;
@@ -93,7 +93,7 @@ FTurnStepReport UTurnPipeline::StepDiplomacy(FStateView& InOutState)
 	return R;
 }
 
-FTurnStepReport UTurnPipeline::StepMilitaryOrders(FStateView& InOutState)
+FTurnStepReport UTurnPipeline::StepMilitaryOrders(FTurnStateView& InOutState)
 {
 	FTurnStepReport R;
 	R.Step = ETurnStep::MilitaryOrders;
@@ -102,7 +102,7 @@ FTurnStepReport UTurnPipeline::StepMilitaryOrders(FStateView& InOutState)
 	return R;
 }
 
-FTurnStepReport UTurnPipeline::StepFinalize(FStateView& InOutState)
+FTurnStepReport UTurnPipeline::StepFinalize(FTurnStateView& InOutState)
 {
 	FTurnStepReport R;
 	R.Step = ETurnStep::Finalize;
