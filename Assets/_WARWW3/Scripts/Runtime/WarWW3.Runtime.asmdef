@@ -1,0 +1,5 @@
+{
+  "name": "WarWW3.Runtime",
+  "rootNamespace": "WarWW3",
+  "references": ["WarWW3.Core", "Unity.TextMeshPro", "Unity.ugui", "Unity.Localization", "Unity.ResourceManager", "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Core.Runtime"]
+}

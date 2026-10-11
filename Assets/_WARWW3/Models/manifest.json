@@ -1,0 +1,53 @@
+{
+  "generator": "Tools/Blender/generate_prototypes.py",
+  "assets": [
+    {
+      "file": "Bulwark_LOD0.fbx",
+      "triangles": 192,
+      "scale": "meters",
+      "uv": "smart projected",
+      "pivot": "ground / origin",
+      "license": "original project asset"
+    },
+    {
+      "file": "Bulwark_LOD1.fbx",
+      "triangles": 60,
+      "scale": "meters",
+      "uv": "smart projected",
+      "pivot": "ground / origin",
+      "license": "original project asset"
+    },
+    {
+      "file": "Kestrel_LOD0.fbx",
+      "triangles": 336,
+      "scale": "meters",
+      "uv": "smart projected",
+      "pivot": "ground / origin",
+      "license": "original project asset"
+    },
+    {
+      "file": "Kestrel_LOD1.fbx",
+      "triangles": 204,
+      "scale": "meters",
+      "uv": "smart projected",
+      "pivot": "ground / origin",
+      "license": "original project asset"
+    },
+    {
+      "file": "Depot.fbx",
+      "triangles": 24,
+      "scale": "meters",
+      "uv": "smart projected",
+      "pivot": "ground / origin",
+      "license": "original project asset"
+    },
+    {
+      "file": "Tree.fbx",
+      "triangles": 24,
+      "scale": "meters",
+      "uv": "smart projected",
+      "pivot": "ground / origin",
+      "license": "original project asset"
+    }
+  ]
+}

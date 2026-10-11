@@ -1,0 +1,6 @@
+{
+  "name": "WarWW3.Editor",
+  "rootNamespace": "WarWW3.Editor",
+  "references": ["WarWW3.Core", "WarWW3.Runtime", "Unity.TextMeshPro", "Unity.Localization", "Unity.Localization.Editor", "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Core.Runtime"],
+  "includePlatforms": ["Editor"]
+}

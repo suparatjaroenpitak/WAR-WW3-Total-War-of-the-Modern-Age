@@ -1,0 +1,1 @@
+{"name":"WarWW3.PlayModeTests","references":["WarWW3.Core","WarWW3.Runtime","Unity.TextMeshPro","Unity.Localization","Unity.ResourceManager"],"optionalUnityReferences":["TestAssemblies"]}
