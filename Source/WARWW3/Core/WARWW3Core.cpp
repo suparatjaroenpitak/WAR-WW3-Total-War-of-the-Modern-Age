@@ -1,9 +1,0 @@
-// Copyright (c) WAR WW3 project. All rights reserved.
-
-#include "Core/WARWW3Core.h"
-
-DEFINE_LOG_CATEGORY(LogWARWW3Core);
-DEFINE_LOG_CATEGORY(LogWARWW3Campaign);
-DEFINE_LOG_CATEGORY(LogWARWW3Battle);
-DEFINE_LOG_CATEGORY(LogWARWW3Net);
-DEFINE_LOG_CATEGORY(LogWARWW3AI);
