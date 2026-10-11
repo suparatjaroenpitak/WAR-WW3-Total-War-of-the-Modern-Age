@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.8",
+	"Category": "",
+	"Description": "WAR WW3 - grand strategy + modern RTS",
+	"Modules": [
+		{
+			"Name": "WARWW3",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "WARWW3Editor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+	}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true
+		}
+	]
+}
