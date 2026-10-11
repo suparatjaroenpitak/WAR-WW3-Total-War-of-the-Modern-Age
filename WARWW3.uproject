@@ -8,12 +8,7 @@
 			"Name": "WARWW3",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "WARWW3Editor",
-			"Type": "Editor",
-			"LoadingPhase": "PostEngineInit"
-	}
+		}
 	],
 	"Plugins": [
 		{

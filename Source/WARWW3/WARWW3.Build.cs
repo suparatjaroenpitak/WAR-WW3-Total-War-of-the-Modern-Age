@@ -6,7 +6,6 @@ public class WARWW3 : ModuleRules
 	public WARWW3(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-		IWYU = IWYUSupport.Default; // keep includes tight
 
 		PublicDependencyModuleNames.AddRange(new string[]
 		{
